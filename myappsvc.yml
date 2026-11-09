@@ -5,12 +5,12 @@ metadata:
   labels:
     app: myjavaapp
     version: 2.6.1
-  spec:
-    type: NodePort
-    ports:
+spec:
+  type: NodePort
+  ports:
     - port: 8080
       nodePort: 30001
       protocal: TCP
   selector:
-    app: myjavaapp
-    version: 2.6.1
+      app: myjavaapp
+      version: 2.6.1
