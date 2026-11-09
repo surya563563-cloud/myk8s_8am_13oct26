@@ -1,0 +1,8 @@
+STEPS TO CREATE REPLICATION CONTROLLER
+Execute the following commands
+kubectl create -f rc.yml
+kubectl get rc
+kubectl describe rc 
+kubectl get rc -o wide
+kubectl apply -f rc.yml
+kubectl delete rc/rcname
