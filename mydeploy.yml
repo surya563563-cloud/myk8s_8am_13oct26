@@ -13,7 +13,7 @@ spec:
      metadata:
         labels:
           app: myjavaapp 
-   spec:
+     spec:
       containers:
       - name: myjavaapp-container
         image: maha4iac/myjavaapp03april26:1
