@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-   name: mysvc-deploy
+   name: mysvc
    namespace: production
    labels:
       app: myjavaapp
