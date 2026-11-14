@@ -13,6 +13,8 @@ spec:
       labels:
         app: myjavaapp
     spec:
+      imagePullSecrets:
+        - name: ecr-secret    
       containers:
       - name: myjavaapp-container
         image: 790281820597.dkr.ecr.us-east-2.amazonaws.com/myjavaapp:1
