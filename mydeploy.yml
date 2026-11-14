@@ -22,4 +22,4 @@ spec:
         image:  790281820597.dkr.ecr.us-east-2.amazonaws.com/myjavaapp:1
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+      - containerPort: 8080
